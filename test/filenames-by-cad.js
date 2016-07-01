@@ -70,7 +70,7 @@ module.exports = [
     ]
   },
   {
-    cad: 'alitum',
+    cad: 'altium',
     files: [
       // top copper
       {name: 'board.gtl', type: 'tcu'},
@@ -122,6 +122,21 @@ module.exports = [
       {name: 'board.FAB', type: 'out'},
       // drill
       {name: 'board.TAP', type: 'drl'}
+    ]
+  },
+  {
+    cad: 'geda-pcb',
+    files: [
+      {name: 'board.bottom.gbr',       type: 'bcu'},
+      {name: 'board.bottommask.gbr',   type: 'bsm'},
+      {name: 'board.bottomsilk.gbr',   type: 'bss'},
+      {name: 'board.fab.gbr',          type: 'drl'},
+      {name: 'board.plated-drill.cnc', type: 'drl'},
+      {name: 'board.outline.gbr',      type: 'out'},
+      {name: 'board.top.gbr',          type: 'tcu'},
+      {name: 'board.topmask.gbr',      type: 'tsm'},
+      {name: 'board.toppaste.gbr',     type: 'tsp'},
+      {name: 'board.topsilk.gbr',      type: 'tss'}
     ]
   }
 ]
