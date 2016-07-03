@@ -21,7 +21,7 @@ var layerTypes = [
     name: {
       en: 'top copper'
     },
-    match: /((F.Cu)|(top\.))|(\.((cmp)|(top$)|(gtl)))/i
+    match: /((F.Cu)|(top\.gbr))|(\.((cmp)|(top$)|(gtl)))/i
   },
   {
     id: 'tsm',
@@ -49,7 +49,7 @@ var layerTypes = [
     name: {
       en: 'bottom copper'
     },
-    match: /(B.Cu|bottom\.)|(\.((sol)|(bot$)|(gbl)))/i
+    match: /(B.Cu|bottom\.gbr)|(\.((sol)|(bot$)|(gbl)))/i
   },
   {
     id: 'bsm',
@@ -77,7 +77,7 @@ var layerTypes = [
     name: {
       en: 'inner copper'
     },
-    match: /(In\d+.Cu)|(\.((ly)|(g)|(in))\d+)/i
+    match: /(In(ner)?\d+.Cu)|(\.((ly)|(g)|(in))\d+)/i
   },
   {
     id: 'out',
