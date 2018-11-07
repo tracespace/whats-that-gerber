@@ -1,3 +1,9 @@
+# repository deprecated
+
+Development of `whats-that-gerber` has moved to [tracespace/tracespace][tracespace]!
+
+[tracespace]: https://github.com/tracespace/tracespace
+
 # what's that gerber?
 
 [![GitHub issues](https://img.shields.io/github/issues/tracespace/whats-that-gerber.svg?style=flat-square&maxAge=86400)](https://github.com/tracespace/whats-that-gerber/issues)
